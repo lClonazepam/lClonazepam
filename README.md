@@ -4,6 +4,10 @@ C++ and small systems tools. Privacy-leaning clients, local utilities, and heade
 
 Site: [pct.monster](https://pct.monster)
 
+## Larger project
+
+- [cpp-tsdb](https://github.com/lClonazepam/cpp-tsdb) — single-node time-series engine: WAL, tag index, delta/XOR segments, crash recovery, aggregating queries
+
 ## C++ libraries
 
 | Repo | What it is |
@@ -20,4 +24,4 @@ Also: lock-free rings, arena alloc, WAL kv, limit order book, epoll reactor, tin
 
 ## Build
 
-Each library is CMake + C++20, header-only, with a `ctest` target. No third-party deps.
+Each library is CMake + C++20. The header-only repos have a `ctest` target and no third-party deps.
